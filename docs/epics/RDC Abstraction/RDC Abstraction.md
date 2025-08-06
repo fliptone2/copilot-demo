@@ -4,23 +4,23 @@
 
 ### Description
 
-Abstract remote deposit capture product-specific logic, status mapping, and formatting within the orchestration layer to provide a unified integration experience for developers.
+Abstract differences between remote deposit capture (RDC) products, providing a unified API and experience for developers and users regardless of backend provider.
 
 ### Acceptance Criteria
 
-1. Orchestration layer handles RDC product-specific logic and formatting.
-2. Status mapping is unified across RDC products.
-3. Developers interact with a single, consistent API.
-4. Changes to RDC products do not require consuming app changes.
+1. The API normalizes check deposit submission, status, and error handling across RDC products.
+2. Product-specific features (e.g., batch processing, cutoff times) are supported via configuration.
+3. Developers do not need to manage RDC-specific logic in their applications.
+4. The system maintains a consistent transaction ID and audit trail across all RDC integrations.
 
 ### Dependencies
 
-- Orchestration layer implementation
-- RDC product documentation
-- API versioning strategy
+- Integration epic
+- Core banking and RDC provider APIs
+- Maintainability & Observability epic
 
 ### Open Questions
 
-- How is status mapping managed for new RDC products?
-- What changes require orchestration layer updates?
-- How is backward compatibility ensured?
+- What RDC products must be supported at launch?
+- How are new RDC products added to the abstraction layer?
+- Are there limitations to feature parity across RDC products?

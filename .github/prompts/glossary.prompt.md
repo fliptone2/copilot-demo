@@ -1,5 +1,5 @@
 
-Create glossary entries that:
+Create a glossary as a new markdown file withentries that:
 
 - Define key terms, acronyms, and domain-specific language used in the product and documentation
 - Are concise, clear, and unambiguous

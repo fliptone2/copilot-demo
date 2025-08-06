@@ -4,23 +4,23 @@
 
 ### Description
 
-Deliver comprehensive API documentation, OpenAPI specifications, Postman collections, and SDKs to support developer onboarding and integration. Ensure documentation is accessible and up-to-date.
+Deliver comprehensive documentation and software development kits (SDKs) to support developers integrating with the mobile check deposit API, ensuring ease of adoption and reducing support overhead.
 
 ### Acceptance Criteria
 
-1. API documentation is available and easy to understand.
-2. OpenAPI spec and Postman collections are published.
-3. SDKs are provided for supported platforms.
-4. Documentation is updated with each API release.
+1. Up-to-date API documentation is available and easy to understand.
+2. SDKs are provided for major programming languages and platforms.
+3. Example use cases and test scenarios are included in the documentation.
+4. Documentation is accessible via FIS Code Connect and other developer portals.
 
 ### Dependencies
 
-- Technical writing resources
-- API documentation tools
-- SDK development teams
+- API specification and implementation
+- Integration epic
+- Maintainability & Observability epic
 
 ### Open Questions
 
-- What platforms require SDKs?
-- How is documentation maintained and versioned?
-- Where is documentation published for developer access?
+- What programming languages and platforms require SDKs?
+- How is documentation kept current with API changes?
+- Are there requirements for localization or accessibility?

@@ -208,21 +208,3 @@ The following API/Integration NFRs should be paired closely with the NFRs expect
 | 1.0 | 6/16/25 | Jen Childress | Initial first draft |
 |  |  |  |  |
 |  |  |  |  |
-
-### **Glossary** {#glossary}
-
-| Term/Acronym | Definition |
-| :---- | :---- |
-| FXD | Funds eXpress, an FIS non-preferred mobile check deposit product. |
-| DLC | Direct Link Consumer, an FIS preferred mobile check deposit product for all new clients coming onto D1 Flex Mobile and for migration in the future for client currently using FXD. |
-| RDC | Remote Deposit Capture, an industry term for the capability for offering mobile check deposit. |
-
-### **Important Links** {#important-links}
-
-* Digital One Flex Mobile PRD: [Deposit Check Beacon United](https://fisglobal.sharepoint.com/:w:/r/teams/PRDCollaborationandReview/Shared%20Documents/General/4.%20Top%2012%20Competitive/PRD%20-%20Deposit%20Check%20Beacon%20United.docx?d=w18f6a582f1ce46c38811707358a24d30&csf=1&web=1&e=DHP4Ws)
-
-### **Open Questions** {#open-questions}
-
-* For the Q3 release, will we need to integrate to FXD and DLC? Or just FXD?   
-  *Answer:  FXD for Q3 and then fast follow with DLC*
-

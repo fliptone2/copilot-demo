@@ -10,10 +10,6 @@
 
 ### Acceptance Criteria
 
-**GIVEN** the bank employee is authenticated and has access to the deposit management module  
-**WHEN** they create, view, or edit a deposit entry  
-**THEN** the system saves changes, displays updated details, and maintains an audit trail for each action
-
 ### Dependencies
 
 - View All Deposits Table story

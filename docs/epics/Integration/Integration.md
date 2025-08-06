@@ -4,23 +4,23 @@
 
 ### Description
 
-Normalize check deposit submission, status polling, and error handling across multiple remote deposit capture products. Support product-specific features and provide sandbox for preproduction integration.
+Provide seamless integration with core banking systems, remote deposit capture providers, and third-party services to enable end-to-end mobile check deposit functionality.
 
 ### Acceptance Criteria
 
-1. API supports submission, status polling, and error handling for multiple RDC products.
-2. Product-specific features (batch, cutoff times) are supported.
-3. Sandbox environment is available for integration testing.
-4. Real-life scenarios are provided as test cases.
+1. The system integrates with multiple core banking systems (e.g., IBS, HORIZON).
+2. The API supports integration with both FIS and non-FIS remote deposit capture products.
+3. Third-party fintech apps can access mobile check deposit features via open APIs.
+4. Integration points are documented and versioned for maintainability.
 
 ### Dependencies
 
-- RDC product APIs
-- Sandbox/test environment
-- Integration documentation
+- Core banking and RDC provider APIs
+- Documentation & SDKs epic
+- RDC Abstraction epic
 
 ### Open Questions
 
-- What RDC products are supported initially?
-- How are product-specific features exposed via API?
-- What test scenarios are required in the sandbox?
+- What are the supported integration protocols and standards?
+- How is API versioning managed?
+- Are there certification requirements for third-party integrators?

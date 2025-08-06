@@ -16,7 +16,7 @@ Review the selected file and expand on the user story by adding a form definitio
 ```markdown
 ### Form Title
 
-[create, view details, or edit] [Form Name] - e.g., "Add User", "View User Details", "Edit User"
+[Provide three clear and descriptive titles for the form for each mode (create, view details, or edit), e.g., "Create New Customer," "View Customer Details," "Edit Customer."]
 
 ### Form Fields
 [
