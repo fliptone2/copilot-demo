@@ -1,0 +1,9 @@
+{
+ "servers": {
+  "Tigerspike Jira MCP Server": {
+   "url": "https://mcp.atlassian.com/v1/sse",
+   "type": "http"
+  }
+ },
+ "inputs": []
+}
