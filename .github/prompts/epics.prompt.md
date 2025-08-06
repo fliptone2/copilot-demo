@@ -1,47 +1,40 @@
+Review the selected file and use it to create all of the epics for the software project. The epics should be structured, clear, and follow the provided template. Each epic should encapsulate a significant feature or deliverable that can be broken down into smaller user stories.
 
-Create epics that:
+# Epic Creation Guidelines
+Give each epic a short title (e.g., "User Authentication"). Create each epic in a separate Markdown file that lives in its own folder. Name the folder and the file after the epic title. Using the provided template to create epics that:
 
 - Clearly describe a large deliverable or objective that groups related user stories
 - Are independent, valuable, and can be delivered incrementally
-- Are linked to one or more user stories for implementation
 - Include acceptance criteria as boolean statements that define when the epic is complete (e.g., "Users can reset their password via email")
 - Specify dependencies on other epics, systems, or teams
 - List any open questions that need to be resolved before implementation
+- Use the provided template for consistency
 
-### Epic Format
-- **Title:** Short, descriptive summary
-- **Description:** What the epic is and why it matters (business value)
-- **Acceptance Criteria:** List of boolean statements that must be true for the epic to be considered complete
-- **Dependencies:** List any dependencies (other epics, systems, teams)
-- **Linked User Stories:** Reference to related user stories (by ID or title; keep in sync with Jira)
-- **Open Questions:** List any open questions
-
-### Formatting
+## Formatting
 - Use Markdown
 - Use bold or headings for section titles
 - List items on separate lines
+- Leave a blank line between sections
+- Use bullet points for clarity
+- Use numbered lists for acceptance criteria
 - Maintain specified carriage returns
 
-### Example Output:
+## Epic Template
+```markdown
+# Epic: [Epic Title]
 
-## Epic: Password Reset
-
-### Description
-Allow users to reset their password via email, improving account security and user experience.
+## Description
+[Brief description of the epic and its business value]
 
 ### Acceptance Criteria
-- Users can request a password reset via email
-- Users receive a reset link if their email is registered
-- Users can set a new password using the reset link
-- Users can log in with the new password after reset
+1. [Acceptance criterion 1]
+2. [Acceptance criterion 2] 
+3. [Acceptance criterion 3]
+4. [Acceptance criterion 4]   
 
 ### Dependencies
-- Email service
-- User account management system
-
-### Linked User Stories
-- Password Reset Flow (Jira Story ID: ABC-123)
+- [List any dependencies, e.g., other epics, systems, teams]
 
 ### Open Questions
-- Should password complexity requirements be enforced?
-- How long should the reset link remain valid?
+- [List any open questions that need resolution based on the current epic description]
+```

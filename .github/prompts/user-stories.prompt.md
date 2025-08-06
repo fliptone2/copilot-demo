@@ -1,7 +1,10 @@
 
-Create user stories that: Reilly Verify
+Review the selected file and use it to create features for the chosen epic. The stories should be structured, clear, and follow the provided template. Each story should encapsulate a discrete interaction that can be turned into development tasks. 
 
-- Express an interaction with the system, based on the instigator of the story:
+# Story Creation Guidelines
+Give each story a short title (e.g., "Create New User"). Create each story in a separate Markdown file that lives in the "stories" folder beneath the epic. Name the file after the story title. Using the provided template to create stories that:
+
+- Express an interaction with the system, based on the actor in the story:
   - **User-driven:** Initiated by an end user interacting with the system (UI, app, etc.)
   - **API-driven:** Initiated by an external system or service calling an API
   - **Process-driven:** Initiated by an automated process, scheduled job, or system event
@@ -13,116 +16,43 @@ Create user stories that: Reilly Verify
   - **Small**mall
   - **T**estable
 - Follow the "AS A / I WANT TO / SO THAT" format (adapt as needed for API- or process-driven stories)
-- For each acceptance criteria in the feature, create a serparate user story
-- Include sufficient, testable acceptance criteria in the Given-When-Then format (one per criterion)
+- Include one, testable acceptance criteria in the story in the Given-When-Then format
   - Write each acceptance criterion as a single, independent Given-When-Then scenario
   - Use explicit, unambiguous language and concrete data or states (e.g., example values, user roles, endpoints)
   - Avoid subjective terms (e.g., "quickly", "easily"); use measurable outcomes
-  - Ensure each criterion is independently testable and does not depend on others
   - Use consistent terminology that matches the system and test code
-  - Clearly specify all dependencies (internal user stories/tasks and external systems/services)
-  - List all open questions, including minor uncertainties, to promote early clarification
-  - When creating a user story for any feature, always create a dedicated `stories` folder inside the feature's directory.  
-  - Place each user story as a separate markdown file in the `stories` folder.  
-  - This ensures all user stories for a feature are organized together for easy navigation and traceability.
+- Clearly specify all dependencies (internal user stories/tasks and external systems/services)
+- List all open questions, including minor uncertainties, to promote early clarification
 
-#### User Story Types
-
-- **User-driven:**
-  - Focus: End user actions and goals
-  - Example: "AS A user, I WANT TO reset my password SO THAT I can regain access if I forget it."
-
-- **API-driven:**
-  - Focus: External system or service interacting with your API
-  - Example: "AS AN external system, I WANT TO POST new order data to the `/api/orders` endpoint SO THAT orders are processed automatically."
-
-- **Process-driven:**
-  - Focus: Automated or scheduled processes, system events
-  - Example: "AS A system process, I WANT TO generate a daily report at midnight SO THAT stakeholders receive up-to-date analytics."
-
-### Ticket Format
-- **Title:** Short, descriptive summary
-- **Jira Issue:** 
-- **Description sections:**
-  1. **User Story** (AS A / I WANT TO / SO THAT)
-  2. **Acceptance Criteria** (GIVEN / WHEN / THEN, one per criterion)
-  3. **Dependencies** (list all internal and external dependencies)
-  4. **Open Questions** (list any open questions that need to be answered)
-
-### Formatting
+## Formatting
 - Use Markdown
 - Use bold or headings for section titles
 - List items on separate lines
+- Leave a blank line between sections
+- Use bullet points for clarity
+- Use numbered lists for acceptance criteria
 - Maintain specified carriage returns
 
-### Example Outputs:
+## Story Template
+```markdown
+# Story: [Story Title]
 
-#### User-driven Example
-
-## Password Reset Feature
-
-## Jira Issue: 
+## Jira Issue: [Link to Jira issue if applicable]
 
 ### User Story
-**AS A** user  
-**I WANT TO** reset my password  
-**SO THAT** I can regain access if I forget it
+**AS A** [user role]  
+**I WANT TO** [goal]  
+**SO THAT** [reason]
 
 ### Acceptance Criteria
-1. **GIVEN** I am on the login page  
-   **WHEN** I click "Forgot Password" and enter my email  
-   **THEN** I receive a password reset link if my email is registered
+**GIVEN** [initial state]  
+**WHEN** [action taken]  
+**THEN** [expected outcome]
 
 ### Dependencies
-- Email service for sending reset links
-- User account database
+- [List all internal and external dependencies, e.g., other user stories, systems, teams]
+- [List any external APIs, services, or systems that this story depends on]
 
 ### Open Questions
-- Should password complexity requirements be enforced?
-
-#### API-driven Example
-
-# API: Create Task Endpoint
-
-## Jira Issue: 
-
-### User Story
-**AS AN** external system  
-**I WANT TO** POST new task data to the `/api/tasks` endpoint  
-**SO THAT** tasks are created automatically in the system
-
-### Acceptance Criteria
-1. **GIVEN** I am an authenticated API client  
-   **WHEN** I send a valid POST request to `/api/tasks`  
-   **THEN** I receive a `201 Created` response and the created task object
-
-### Dependencies
-- User authentication service
-- Database for storing tasks
-
-### Open Questions
-- What additional fields might be required in the future?
-- Should tasks support attachments or tags at creation?
-
-#### Process-driven Example
-
-# Daily Report Generation
-
-## Jira Issue:
-
-### User Story
-**AS A** system process  
-**I WANT TO** generate a daily report at midnight  
-**SO THAT** stakeholders receive up-to-date analytics
-
-### Acceptance Criteria
-1. **GIVEN** it is midnight  
-   **WHEN** the scheduled job runs  
-   **THEN** a report is generated and emailed to stakeholders
-
-### Dependencies
-- Reporting database
-- Email service
-
-### Open Questions
-- What format should the report be in (PDF, CSV, etc.)?
+- [List any open questions that need resolution based on the current story description]
+```
