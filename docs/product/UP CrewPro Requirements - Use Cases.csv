@@ -1,0 +1,701 @@
+Module,Function,"Use
+Case #", Use Case Name,Capabilities Release,"Business
+Use Cases","System
+Use Cases",Priority,Internal Review Status,PST Reviewed Date,Review BR with Customer Status,Delivered Date,Approved Date,Supplemental Docs (If any),JIRA Ticket BR Review,Value Pillar Release,Work Stream Release,Active
+Crew,General,1,1 - Login and Logout of CrewPro web application,1,Yes,,Low,,,,,,,,1.1,1.1,Yes
+Crew,General,2,2 - Logout from CrewPro web application,NFR,Yes,,Low,,,,,,,,1.1,1.1,Yes
+Crew,General,3,3 - Create Company Control,Consolidated,Yes,,Medium,,,,,,,,1.2,,No
+Crew,General,4,4 - Create / Manage Company Control,1,Yes,,Medium,,,,,,,,1.2,1.3,Yes
+Crew,General,5,5 - Create / Override TSR Alias Station Control,1,Yes,,Medium,,,,,,,,1.2,1.3,Yes
+Crew,General,6,6 - Manage TSR Alias Station Control,1,Yes,,Medium,,,,,,,,1.2,1.3,Yes
+Crew,General,7,7- Create/District,Non UP,Yes,,Medium,,,,,,,,1.2,1.3,No
+Crew,General,8,8  -Manage District Control,Non UP,Yes,,Medium,,,,,,,,1.2,1.3,No
+Crew,General,9,9 -Create/Manage Sub District Control,Non UP,Yes,,Medium,,,,,,,,1.2,1.3,No
+Crew,General,10,10 - Manage Subdistrict Control,Non UP,Yes,,Medium,,,,,,,,1.2,1.3,No
+Crew,Assignments,11,11 - Create / Manage Board Definition Control,1,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Assignments,12,12 - Manage Board Definition Control,Consolidated,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Assignments,13,13 - Create/Manage Board Terminal Location Control,1,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Assignments,14,14 - Manage Board Terminal Location Control,Consolidated,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Assignments,15,15 -Create / Manage Extra Board Control,8,Yes,,Medium,,,,,,,,1.2,2.6,Yes
+Crew,Assignments,16,16 - Manage Extra Board Control,Consolidated,Yes,,Medium,,,,,,,,1.2,2.6,Yes
+Crew,Assignments,17,17 - Create/Manage Pool Board Control,6,Yes,,Medium,,,,,,,,1.2,3.6,Yes
+Crew,Assignments,18,18 -Manage Pool Board Control,Consolidated,Yes,,Medium,,,,,,,,1.2,,No
+Crew,Assignments,19,19 - Create / Manage Pool Associated Positions,Consolidated,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,20,20 - Manage Pool Associated Positions,Consolidated,Yes,,Medium,,,,,,,,2.1,,No
+Crew,Status Tracking,21,21 - Create / Manage Status Code Control,1,Yes,,Medium,,,,,,,,1.3,2.3,Yes
+Crew,Status Tracking,22,22 - Manage Status Code Control,Consolidated,Yes,,Medium,,,,,,,,1.3,,Yes
+Crew,Status Tracking,23,23 -Create / Manage Reason Code Control,1,Yes,,Medium,,,,,,,,1.3,2.3,Yes
+Crew,Status Tracking,24,24 - Manage Reason Code Control,Consolidated,Yes,,Medium,,,,,,,,1.3,,Yes
+Crew,Status Tracking,25,25 - Create / Manage Status Reason Control,1,Yes,,Medium,,,,,,,,1.3,2.3,Yes
+Crew,Status Tracking,26,26 -Manage Status Reason Control,Consolidated,Yes,,Medium,,,,,,,,1.3,,Yes
+Crew,Call,27,27 - Create / Manage Crew Profile Control,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Call,28,28 - Manage Crew Profile Control,Consolidated,Yes,,Medium,,,,,,,,3.2,2.4,No
+Crew,Call,29,29 - Create / Manage Train Profile Control,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Call,30,30 - Manage Train Profile Control,Consolidated,Yes,,Medium,,,,,,,,3.2,2.4,No
+Crew,Employee,31,31 - Add/Edit New Employee,1,Yes,,Medium,,,,,,,,1.1,1.2,Yes
+Crew,Employee,32,32 - View an Employee,1,Yes,,Medium,,,,,,,,1.1,1.2,Yes
+Crew,Employee,33,33 - Archive an Employee ,7,,Yes,Medium,,,,,,,,1.3,3.3,Yes
+Crew,Employee,34,34 - Inactivate an Employee,7,Yes,,Medium,,,,,,,,1.3,8.2,Yes
+Crew,Employee,35,35 - View / Manage Employee Personal Information,1,Yes,,Medium,,,,,,,,1.2,1.2,Yes
+Crew,Employee,36,36 - View Employee Personal Information,Consolidated,Yes,,Medium,,,,,,,,1.2,,Yes
+Crew,Employee,37,37 -View / Manage Employee Summary Information,1,Yes,Yes,Medium,,,,,,,,1.2,1.2,Yes
+Crew,Employee,38,38 - View Employee Summary Information,Consolidated,Yes,,Medium,,,,,,,,1.2,,No
+Crew,Employee,39,39 - Add/Manage Contact Information,1,Yes,,Medium,,,,,,,,1.2,3.4,Yes
+Crew,Employee,40,40 - Manage Contact Information,Consolidated,Yes,,Medium,,,,,,,,1.2,,Yes
+Crew,Status Tracking,41,41 - Markup an Employee,7,Yes,Yes,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Status Tracking,42,42 - Layoff an Employee,7,Yes,Yes,High,,,,,,,,2.3,2.3,Yes
+Crew,Status Tracking,43,43 - Change an Employee's Status to Working,1,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Employee,44,44 - Attempt to Notify an Employee,1,Yes,,Medium,,,,,,,,2.3,6.1,Yes
+Crew,Employee,45,45 - Create / View Employee History,1,Yes,Yes,Medium,,,,,,,,1.2,3.3,Yes
+Crew,Employee,46,46 - View Employee History,Consolidated,Yes,,Medium,,,,,,,,1.2,,Yes
+Crew,Assignments,47,47 - Create / Manage Assigned Job Crew ID,1,Yes,,Medium,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,48,48 - Manage Assigned Job,Consolidated,Yes,,Medium,,,,,,,,2.4,2.1,No
+Crew,Assignments,49,49 - Manage Assigned Job Positions,1,Yes,,Medium,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,50,50 - Create / Manage Assigned Job Schedule,1,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,51,51 - Manage Assigned Job Schedule,Consolidated,Yes,,Medium,,,,,,,,2.1,2.1,No
+Crew,Trains,52,52 - Generate Assigned Job Trains,1,,Yes,Medium,,,,,,,,3.2,3.6,Yes
+Crew,Assignments,53,53 - Move Employee onto new Assignment,1,Yes,,High,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,54,54 - Remove Employee from an Assignment,1,Yes,,High,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,55,55 - Create Assignment Notification,1,,Yes,Medium,,,,,,,,2.4,6.1,Yes
+Crew,Assignments,56,56 - Search for available jobs for employee seniority move,1,Yes,,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,57,57 - View Employee Assignments,1,Yes,,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,58,58 - Pool Board Maintenance,6,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,59,"59 - Create, Edit, View Pool Board Turn",6,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,60,60 - View and Edit a Pool Board Turn,Consolidated,Yes,,Medium,,,,,,,,2.1,,No
+Crew,Assignments,61,61 - Cut Pool Board Turn,6,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,62,62 - Mark Pool Board Turn as Attachable/Detachable,Non UP,Yes,,Medium,,,,,,,,2.1,3.6,No
+Crew,Assignments,63,63 - Mark Pool Board Turn as Blankable/Unblankable,Non UP,Yes,,Medium,,,,,,,,2.1,3.6,No
+Crew,Assignments,64,64 - Move Pool Board Turn to a different location,6,Yes,,Medium,,,,,,,,3.1,3.6,Yes
+Crew,Assignments,65,65 - Activate or Inactivate Interdivisional pool turn,6,,Yes,Medium,,,,,,,,3.1,3.6,Yes
+Crew,Assignments,66,66 - Reposition Pool Turn,Consolidated,Yes,,Medium,,,,,,,,3.1,3.6,No
+Crew,Assignments,67,67 - View Extraboard List,8,Yes,,Medium,,,,,,,,2.1,2.6,Yes
+Crew,Assignments,68,"68 - Create, Edit, View Extraboard Turn",8,Yes,,Medium,,,,,,,,2.1,2.6,Yes
+Crew,Assignments,69,69 - View and Edit a Extraboard Turn,Consolidated,Yes,,Medium,,,,,,,,2.1,,No
+Crew,Assignments,70,70 - Cut Extraboard Turn,8,Yes,,Medium,,,,,,,,2.1,2.6,Yes
+Crew,Assignments,71,71 - Reposition Extraboard Turn,Consolidated,Yes,,Medium,,,,,,,,3.1,2.6,No
+Crew,Assignments,72,72 - Delete Extraboard Turn,Consolidated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,73,73 - Inquire Board Status,Consolidated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,74,74 - Field Inquiry for Extraboard Standings,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Assignments,75,75 - Field Inquiry for Pool Standings,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Assignments,76,76 - Create/View Job History,1,Yes,Yes,Medium,,,,,,,,2.2,2.3,Yes
+Crew,Assignments,77,77 - View Job History,Consolidated,Yes,,Medium,,,,,,,,2.2,2.2,Yes
+Crew,Trains,78,78 - Create a Train,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Trains,79,79 - Manage The Train Settings on The Train Request,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,80,80 - Manage The Crew Settings on the Train Request,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,81,81 -Create / Manage Train Messages,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,82,82 - Manage Train Messages,Consolidated,Yes,,Medium,,,,,,,,3.2,2.4,No
+Crew,Trains,83,83 - Create / Manage Crew Messages,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,84,84 - Manage Crew Messages,Consolidated,Yes,,Medium,,,,,,,,3.2,2.4,No
+Crew,Trains,85,85 - View Trains on the Work List,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,86,86 - Update Train Request,Consolidated,Yes,,Medium,,,,,,,,3.2,2.4,No
+Crew,Call,87,87 - Present the Train for Call,1,Yes,Yes,High,,,,,,,,3.2,6.3,Yes
+Crew,Call,88,88 - Present Crew on each Position,1,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,89,89 - Call each Position,1,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,90,90 - Complete the call,1,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,91,91 - Annul the Crew,16,Yes,,Medium,,,,,,,,3.3,6.3,Yes
+Crew,Tie up,92,92 - Complete The Tie Up,5,Yes,,,,,,,,,,4.1,7.4,Yes
+Crew,Employee,93,93 - Execute or Complete the Task,7,,Yes,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Employee,94,94 - Create Task,7,Yes,,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Employee,95,"95 - Search, View Task List",7,Yes,,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Assignments,96,"96 - Schedule seniority move in future, pended seniority move",7,Yes,Yes,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Status Tracking,97,97 - Schedule markup in future,Consolidated,Yes,Yes,Medium,,,,,,,,2.3,,No
+Crew,Status Tracking,98,98 - Schedule layoff in future,Consolidated,Yes,,Medium,,,,,,,,2.3,,No
+Crew,Status Tracking,99,99 - Approve or Deny the layoffs,Deprecated,Yes,,Medium,,,,,,,,2.3,,No
+Crew,Employee,100,100 - Manage Pended Task,7,Yes,,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Employee,101,101 - Receive Employee Information from External System(s),3,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Employee,102,102 - Create / Manage Employee Restrictions,1,Yes,,High,,,,,,,,2.3,3.7,Yes
+Crew,Employee,103,103 - Manage Employee Restrictions,Consolidated,Yes,,Medium,,,,,,,,2.3,,Yes
+Crew,Employee,104,104 - Send Employee Information to External System(s),NS Deprecated,,Yes,Medium,,,,,,,,NA,,No
+Crew,Employee,105,105 - Create / Manage Assignment Seniority Control,1,Yes,,Medium,,,,,,,,2.1,2.6,Yes
+Crew,Employee,106,106 - Manage Assignment Seniority Control,Consolidated,Yes,,Medium,,,,,,,,2.1,,Yes
+Crew,Assignments,107,107 - Create/Manage Labor Agreement Profile,1,Yes,,Medium,,,,,,,,1.1,2.3,Yes
+Crew,Assignments,108,108 - Manage Labor Agreement Profile,Consolidated,Yes,,Medium,,,,,,,,1.1,,Yes
+Crew,Employee,109,109 - Create and Manage Seniority Rosters,1,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Employee,110,110 - Manage Standard and Stacked Seniority Roster Control,Consolidated,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Employee,111,111 - Employee Master Seniority Tab ,1,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Employee,112,112 - Manage Employee on Seniority Roster Screen,1,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Employee,113,113 - View Seniority Rosters,1,Yes,,Medium,,,,,,,,1.1,3.7,Yes
+Crew,Employee,115,115 - Build Stacked Seniority Rosters,Consolidated,,Yes,Medium,,,,,,,,1.1,3.7,Yes
+Crew,Employee,116,116 - Create OSL Roster Control,Non UP,Yes,,Medium,,,,,,,,1.1,2.6,No
+Crew,Employee,117,117 - Manage OSL Roster Control,Non UP,Yes,,Medium,,,,,,,,1.1,2.6,No
+Crew,Employee,118,118 - Initialize or Rebuild OSL Rosters,Non UP,,Yes,Medium,,,,,,,,1.1,2.6,No
+Crew,Employee,119,119 - Create / Manage Broadcast Message,11,Yes,,Medium,,,,,,,,1.8,5.1,Yes
+Crew,Employee,120,120 - Manage Broadcast Message,Consolidated,Yes,,Medium,,,,,,,,1.8,5.1,No
+Crew,Employee,121,121 - Display Messages & Notifications upon login,5,,Yes,Medium,,,,,,,,8.3,5.1,Yes
+Crew,Employee,122,122 - View Broadcast Message Read Log,11,Yes,,Medium,,,,,,,,1.8,5.1,Yes
+Crew,Employee,123,123 - Delete all deactivated Broadcast Messages periodically,11,,Yes,Medium,,,,,,,,1.8,5.1,Yes
+Crew,Employee,124,124 - Setup/Modify Proactive Notifications on Employee,7,Yes,,Medium,,,,,,,,2.3,6.1,Yes
+Crew,Employee,125,125 - Modify Proactive Notifications on Employee,Consolidated,Yes,,Medium,,,,,,,,2.3,6.1,No
+Crew,Employee,126,126 - Generate notifications for employee from Proactive notifications,7,,Yes,Medium,,,,,,,,2.3,6.1,Yes
+Crew,Employee,127,127 - View Proactive Employee Notifications generated for employee,7,Yes,,Medium,,,,,,,,2.3,6.1,Yes
+Crew,Misc. Functionality,128,128 - Create Trainmaster Territory Control Create Circ7 Officers Control,Consolidated,Yes,,,,,,,,,,1.4,1.4,No
+Crew,Misc. Functionality,129,129 - Manage Trainmaster Territory Control Create/Manage Circ7 Officers Control,18,Yes,,,,,,,,,,1.4,1.3,Yes
+Crew,Employee,130,130 - Create / Manage Hire Groups Control,Non UP,Yes,,Medium,,,,,,,,2.1,2.6,No
+Crew,Employee,131,131 - Manage Hire Groups Control,Non UP,Yes,,Medium,,,,,,,,2.1,2.6,No
+Crew,Qualifications,132,132 - Create /Manage Qualifications Control,1,Yes,,Medium,,,,,,,,1.2,2.3,Yes
+Crew,Qualifications,133,133 - Manage Qualifications Control,Consolidated,Yes,,Medium,,,,,,,,1.2,2.3,Yes
+Crew,Assignments,134,134 - Create/Manage Assignment Qualifications Control,1,Yes,,Medium,,,,,,,,2.1,2.3,Yes
+Crew,Assignments,135,135 - Manage Assignment Qualifications Control,Consolidated,Yes,,Medium,,,,,,,,2.1,2.1,Yes
+Crew,Qualifications,136,136 - Create / Manage Expiring Qualifications Control,7,Yes,,Medium,,,,,,,,2.2,2.3,Yes
+Crew,Qualifications,137,137 - Manage Expiring Qualifications Control,Consolidated,Yes,,Medium,,,,,,,,2.2,2.3,Yes
+Crew,Assignments,138,138 - Create & Manage Advertisement Description,11,Yes,,Medium,,,,,,,,1.8,4.1,Yes
+Crew,Assignments,139,139 - Manage Master Advertisement Description Control,Consolidated,Yes,,Medium,,,,,,,,1.8,,No
+Crew,Assignments,140,140 - Create Pool Regulation Starts Control,6,Yes,,Medium,,,,,,,,1.8,3.6,Yes
+Crew,Assignments,141,141 - Manage Pool Regulation Starts Control,Consolidated,Yes,,Medium,,,,,,,,1.8,,No
+Crew,Assignments,142,142 - Create/Manage Scheduled Pool Control,6,Yes,,Medium,,,,,,,,3.1,3.6,Yes
+Crew,Assignments,143,143 - Manage Carded Pool Schedule Control,Consolidated,Yes,,Medium,,,,,,,,3.1,3.6,No
+Crew,Assignments,144,144 - Create / Manage Tieup Rotation Profile,6,Yes,,Medium,,,,,,,,4.4,3.7,Yes
+Crew,Assignments,145,145 - Manage Board Rotation Profiles,Consolidated,Yes,,Medium,,,,,,,,4.4,3.7,Yes
+Crew,Assignments,146,146 - Crew Avail List Control,Deprecated,,,,,,,,,,,3.1,,No
+Crew,Assignments,147,147 - Manage Avail List Control,Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,148,148 - Create Avail List Events Control,Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,149,149 - Manage Avail List Events Control,Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Bulletin Logic,150,150 - Create Advertisement Bid Control,Consolidated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Bulletin Logic,151,151 - Manage Advertisement Bid Control,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,152,152 - Create Special Condition Control,Non UP,Yes,,Medium,,,,,,,,1.3,2.7,No
+Crew,Assignments,153,153 - Manage Special Condition Control,Non UP,Yes,,Medium,,,,,,,,1.3,2.7,No
+Crew,Call,154,154 - Create / Manage Starts Profile Control,1,Yes,,Medium,,,,,,,,1.1,3.5,Yes
+Crew,Call,155,155 - Manage Starts Profile Control,Consolidated,Yes,,Medium,,,,,,,,1.1,,Yes
+Crew,Bulletin Logic,156,156 - Create PWS-Menu Control,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Bulletin Logic,157,157 - Manage PWS-Menu Control,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Bulletin Logic,158,158 - Create PWS Bid Group Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,159,159 - Manage PWS Bid Group Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Trains,160,160 - Create/Manage Desk Control/ Create/Manage Desk Assignments,15,Yes,,Medium,,,,,,,,1.2,2.6,Yes
+Crew,Trains,161,161 - Manage Desk Control,Consolidated,Yes,,Medium,,,,,,,,1.2,1.2,No
+Crew,Bulletin Logic,162,162 - Create PWS-Bulletin Master-Award Placement Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,163,163 - Manage PWS-Bulletin Master-Award Placement Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,164,164 - Create PWS-Bid Group Bulletins Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,165,165 - Manage PWS-Bid Group Bulletins Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,166,166 - Create PWS-Placement Profile Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,167,167 - Manage PWS-Placement Profile Control,12,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,HoS Inquiries,168,168 - Create & Manage HOS Thresholds Control,1,Yes,,Medium,,,,,,,,1.7,7.4,Yes
+Crew,HoS Inquiries,169,169 - Manage HOS Thresholds Control,Consolidated,Yes,,Medium,,,,,,,,1.7,,No
+Crew,Call,170,170 - Create/Manage Decision Table Control,8,Yes,,Medium,,,,,,,,1.5,3.5,Yes
+Crew,Call,171,171 - Manage Decision Table Control Combine with 170,Consolidated,Yes,,Medium,,,,,,,,1.5,,No
+Crew,Tie up,172,172 - Create/Manage Tie-up Exception Control,6,Yes,,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,173,173 - Manage Tie-up Exception Control,Consolidated,Yes,,Medium,,,,,,,,4.1,7.4,No
+Crew,Qualifications,174,174 - Crew Origin / Destination Route Control,1,Yes,,Medium,,,,,,,,1.4,1.3,Yes
+Crew,Qualifications,175,175 - Create/Manage Train Origin/Destination Control,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,176,176 - Create/Manage Train Schedule Control,6,Yes,,Medium,,,,,,,,3.1,3.6,Yes
+Crew,Trains,177,177 - Manage Train Schedule Control,Consolidated,Yes,,Medium,,,,,,,,3.1,3.6,No
+Crew,Trains,178,178 - Create TSR Station Control,Non UP,Yes,,Medium,,,,,,,,NA,,No
+Crew,Trains,179,179 - Manage TSR Station Control,Non UP,Yes,,Medium,,,,,,,,NA,,No
+Crew,General,180,180 - Create Holiday Designations Control,NS Deprecated,Yes,,,,,,,,,,8.5,,No
+Crew,General,181,181 - Manage Holiday Designations Control,NS Deprecated,Yes,,,,,,,,,,8.5,,No
+Crew,Reports,182,182 - Create Host Message Routing Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,183,183 - Manage Host Message Routing Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Status Tracking,184,184 - Create Employee Attendance Ranking Control,Deprecated,Yes,,Medium,,,,,,,,2.3,2.3,No
+Crew,Status Tracking,185,185 - Manage Employee Attendance Ranking Control,Deprecated,Yes,,Medium,,,,,,,,2.3,2.3,No
+Crew,Trains,186,186 - Create Handle & Delay Codes Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Trains,187,187 - Manage Handle & Delay Codes Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,IVR Integration,188,188 - Create VRU Extraboard Maintenance Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,IVR Integration,189,189 - Manage VRU Extraboard Maintenance Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,IVR Integration,190,190 -Create VRU Board Inquiry Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,IVR Integration,191,191 - Manage VRU Board Inquiry Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,IVR Integration,192,192 - Create IVR Notify Control ,15,Yes,,Medium,,,,,,,,3.4,6.1,Yes
+Crew,IVR Integration,193,193 - Manage IVR Notify Control ,15,Yes,,Medium,,,,,,,,3.4,6.1,Yes
+Crew,IVR Integration,194,194 - Create / Manage Autocall Profile ,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,IVR Integration,195,195 - Manage Autocall Profile ,Consolidated,Yes,,Medium,,,,,,,,3.4,,Yes
+Crew,Reports,196,196 - Create Crew Summary Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,197,197 - Manage Crew Summary Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,198,198 - Create Shift Report Control,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Reports,199,199 - Manage Shift Report Control,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Reports,200,200 - Create Report Exceptions Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,201,201 - Manage Report Exceptions Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,202,202 - Create Auto Shift Report Control,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Reports,203,203 - Manage Auto Shift Report Control,Consolidated,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Reports,204,204 - Create Auto Guar XB Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,205,205 - Manage Auto Guar XB Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,206,206 - Create Auto FTP Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,Reports,207,207 - Manage Auto FTP Report Control,NS Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,General,208,208 - Create Automatic Pool Regulation Report Selection Control,NS Deprecated,Yes,,,,,,,,,,1.8,9.1,No
+Crew,General,209,209 - Manage Automatic Pool Regulation Report Selection Control,NS Deprecated,Yes,,,,,,,,,,1.8,9.1,No
+Crew,Employee,210,"210 - Add/Modify Crew Dispatcher, General Comments for Employee",1,Yes,,Medium,,,,,,,,2.3,3.3,Yes
+Crew,Employee,211,"211 - Modify Crew Dispatcher, General Comments for Employee",Consolidated,Yes,,Medium,,,,,,,,2.3,,Yes
+Crew,Employee,212,212 - View/ Modify Employee Advanced Details,1,Yes,,Medium,,,,,,,,2.3,1.2,Yes
+Crew,Employee,213,213 - View Employee Advanced Details,Consolidated,Yes,,Medium,,,,,,,,2.3,,Yes
+Crew,Employee,214,214 - View Employee Entitlements,17,Yes,,Medium,,,,,,,,NA,,No
+Crew,HoS Inquiries,215,215 - View Employee Hours of Service Log,5,Yes,,Medium,,,,,,,,1.7,5.2,Yes
+Crew,Employee,216,216 - Generate Broadcast Message for expiring qualifications,11,Yes,Yes,Medium,,,,,,,,2.2,5.1,Yes
+Crew,Qualifications,217,217 - Manage Employee Qualifications,1,Yes,,Medium,,,,,,,,2.2,2.3,Yes
+Crew,Qualifications,218,218 - Search and View Employee Qualifications,1,Yes,,Medium,,,,,,,,2.2,2.3,Yes
+Crew,Assignments,219,219 - Copy Assigned Job Schedule to multiple positions,1,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Assignments,220,220 - Create / Manage Annulment,16,Yes,,Medium,,,,,,,,3.3,3.6,Yes
+Crew,Assignments,221,221 - Manage Annulment,Consolidated,Yes,,Medium,,,,,,,,3.3,3.6,No
+Crew,Assignments,222,222 - Create Layoff Request Restriction,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,223,223 - Manage Layoff Request Restrictions,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Employee,224,224 - Field Inquiry for Seniority Rosters,NS Deprecated,Yes,,Medium,,,,,,,,NA,,No
+Crew,Assignments,225,225 - Field Inquiry for Open/Vacant Assignments,18,Yes,,Medium,,,,,,,,8.5,4.1,Yes
+Crew,Assignments,226,226 - Field Inquiry for Assigned Jobs,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Assignments,227,227 - Field Inquiry for Relief Jobs,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Status Tracking,228,228 - Create/Manage Markup Rotation Profile,6,Yes,,Medium,,,,,,,,2.3,2.3,Yes
+Crew,Status Tracking,229,229 -Manage Markup Rotation Profile,Consolidated,Yes,,Medium,,,,,,,,2.3,2.3,No
+Crew,Assignments,230,230 - Create Seniority Move Profile,1,Yes,,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,231,231 - Manage Seniority Move Profile,Consolidated,Yes,,Medium,,,,,,,,2.4,3.7,No
+Crew,Assignments,232,232 - Auto Advance the Carded Pool Pointers,Consolidated,,Yes,Medium,,,,,,,,3.1,3.7,No
+Crew,Assignments,233,233 - Manage Extra Assigned Jobs,10,Yes,,Medium,,,,,,,,3.2,3.6,Yes
+Crew,Assignments,234,234 - Manage Extra Assigned Job Schedules,10,Yes,,Medium,,,,,,,,3.2,3.6,Yes
+Crew,Call,235,235 - Find the decision rule for vacancy fill,8,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,236,236 - Fill vacancy through Decision Fill,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,237,237 - Swap Crew,6,Yes,,Medium,,,,,,,,3.3,8.3,Yes
+Crew,Misc. Functionality,238,238 - Manage to request/decline extra work,Deprecated,Yes,,,,,,,,,,NA,,No
+Crew,HoS Inquiries,239,239 - Generate HoS Report for all employees governed by HoS Profile,18,Yes,Yes,Medium,,,,,,,,8.1,7.4,Yes
+Crew,Employee,240,240 - Create /Manage Flowback Profile,Non UP,Yes,,Medium,,,,,,,,1.8,3.7,No
+Crew,Employee,241,241 - Manage Flowback Profile,Non UP,Yes,,Medium,,,,,,,,1.8,2.6,No
+Crew,Employee,242,242 - Create / Manage Union Lodge Control,1,Yes,,Medium,,,,,,,,1.2,2.3,Yes
+Crew,Employee,243,243 -Manage Union Lodge Control,Consolidated,Yes,,Medium,,,,,,,,1.2,,No
+Crew,HoS Inquiries,244,"244 - Add, Update, View, Delete Employee Hours of Service Information",5,Yes,Yes,High,,,,,,,,4.5,8.4,Yes
+Crew,Call,245,245 - Create an Individual Deadhead to Home,13,Yes,Yes,High,,,,,,,,3.2,4.4,Yes
+Crew,Call,246,246 - Create an Individual Deadhead to an Assignment,13,Yes,,High,,,,,,,,3.2,4.4,Yes
+Crew,Call,247,247 - Call an Individual Deadhead to Home,13,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,248,248 - Call an Individual Deadhead to an Assignment,13,Yes,,Medium,,,,,,,,3.2,4.4,Yes
+Crew,Call,249,249 - Create/ Manage Deadhead Travel Miles Control,13,Yes,,Medium,,,,,,,,1.4,4.4,Yes
+Crew,Call,250,250 - Manage Deadhead Travel Miles Control,Consolidated,Yes,,Medium,,,,,,,,1.4,1.4,No
+Crew,Call,251,251 - Help an Employee on Individual Deadhead,13,Yes,,Medium,,,,,,,,3.2,4.4,Yes
+Crew,Call,252,252 - Fill an Individual Deadhead to an Assignment,13,Yes,,Medium,,,,,,,,3.2,4.4,Yes
+Crew,Call,253,253 - Layoff an employee on call,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Assignments,254,"254 - Start, Stop and Handle Displacement Clock",7,,Yes,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,255,255 - Calculate employee protection status,Non UP,,Yes,Medium,,,,,,,,1.3,2.7,No
+Crew,Assignments,256,256 - Schedule to add a pool turn in future,Non UP,Yes,,Medium,,,,,,,,2.1,2.1,No
+Crew,Assignments,257,257 - Schedule to cut a pool turn in future,6,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Call,258,258 - Generate an Outbound Call Slip,1,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,259,259 - Reject an employee,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,260,260 - Reject the turn,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,261,261 - Vacate the position,1,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,262,262 - Manage an Outbound Call Slip,Consolidated,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,263,263 - Help an employee,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,264,264 - Drop the vacant turn,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Call,265,265 - Create Made-Up turns,8,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Misc. Functionality,266,266 - Create snapshot of a pool board,NS Deprecated,,Yes,,,,,,,,,2.4,,No
+Crew,Misc. Functionality,267,267 - Create snapshot of a pool turn,NS Deprecated,,Yes,,,,,,,,,2.4,,No
+Crew,Call,268,268 - Automatically deadhead released employees to home,13,,Yes,Medium,,,,,,,,3.2,4.4,Yes
+Crew,Tie up,269,269 - Complete The Tie Up With Carried Pool Turns,6,,Yes,,,,,,,,,4.1,7.4,Yes
+Crew,Call,270,270 - Cancel the call on a crewed position,1,Yes,,Medium,,,,,,,,3.3,8.3,Yes
+Crew,Misc. Functionality,271,271 - Manage personal flowback requests,Non UP,Yes,Yes,Medium,,,,,,,,1.8,3.7,No
+Crew,Call,272,272 - Find the Right Card for Crew Position Using Scheduled Pool Schedule,6,,Yes,Medium,,,,,,,,3.2,3.7,Yes
+Crew,Call,273,273 - Find the Train Profile and Crew Profile to crew the Train,1,,Yes,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,274,274 - Create Relief Recrew Train,8,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Misc. Functionality,275,275 - Cleanup orphaned made-up turns,8,,Yes,Medium,,,,,,,,4.4,8.3,Yes
+Crew,Assignments,276,276 - View Boards,3,Yes,,,,,,,,,,3.1,6.3,Yes
+Crew,Non-Work Tracking,277,277 - Track employees for lost work,8,,Yes,,,,,,,,,7.1,8.5,Yes
+Crew,Call,278,278 - Log the Decision Fill process to indicate the bypassed employees,NS Deprecated,,Yes,High,,,,,,,,1.5,6.3,No
+Crew,Call,279,"279 - Search, View Decision Fill Log Log the Decision Fill process to indicate the bypassed employees",8,Yes,,Medium,,,,,,,,1.5,6.3,Yes
+Crew,Qualifications,280,280 - Autorenewal of Employee Qualifications,5,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Qualifications,281,281 - Create/Manage Extra Work Profile,8,Yes,,Medium,,,,,,,,1.1,2.6,Yes
+Crew,Qualifications,282,282 - Manage Extra Work Profile,Consolidated,Yes,,Medium,,,,,,,,1.1,1.1,No
+Crew,Qualifications,283,283 - Activate or Deactivate Extra Work for an employee,8,Yes,,Medium,,,,,,,,2.3,2.6,Yes
+Crew,Qualifications,284,284 -Disqualify Employee for Extra Work ,8,,Yes,Medium,,,,,,,,2.3,2.6,Yes
+Crew,General,285,285 - Identify Train Type based on Train Symbol,1,,Yes,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Misc. Functionality,286,286 - Cleanup orphaned turns,8,,Yes,Medium,,,,,,,,4.4,8.3,Yes
+Crew,Qualifications,287,287 - Create Crew Route,Duplicate,Yes,,Medium,,,,,,,,1.4,1.4,No
+Crew,Qualifications,288,288 - Manage Crew Route,Consolidated,Yes,,Medium,,,,,,,,1.4,1.4,No
+Crew,Qualifications,289,289 - Calculate Default Crew Route & Alternate Train Crew Routes,1,,Yes,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Qualifications,290,290 - Identify missing qualifications of presented employee,1,Yes,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Qualifications,291,291 - Select alternate crew routes,6,Yes,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Qualifications,292,292 - Record Crew Routes Used at Tie-up Time,6,Yes,,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Employee,293,293 - Manage requests to view contact information of non-rested employee,7,Yes,Yes,Medium,,,,,,,,2.3,7.1,Yes
+Crew,Tie up,294,294 - Manage AFE/SCC codes and applicable time periods for Crew IDs,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Call,295,295 - Help a Crew ID on Train,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Bulletin Logic,296,296 - PWS - Generate bulletins,12,,Yes,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,297,297 - PWS - Manage bulletins,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,298,298 - PWS - View employee's bid groups,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,299,299 - PWS - Manage employee bid access qualifications,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,300,300 - PWS - Deactivate employee bid cards,12,,Yes,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,301,301 - PWS - View deactivated bid cards,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,302,302 - PWS - Copy bid cards from previous cycle,12,,Yes, ,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,303,303 - PWS - Manage employee bids on bulletins,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,304,304 - PWS - Write employee bid history,12,,Yes, ,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,305,305 - PWS - View employee bid history,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,306,306 - PWS - View all bids on a bulletin,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,307,307 - PWS - Run the evaluation,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,308,308 - PWS - Allocate assignments,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,309,309 - PWS - View evaluation results,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,310,310 - PWS - Clear evaluation results,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,311,311 - PWS - View evaluation report list,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,312,312 - PWS - View evaluation report,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,313,313 - PWS - View bulletin evaluation results,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,314,314 - PWS - Lock the evaluation,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,315,315 - PWS - View employee bid evaluation results,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,316,316 - PWS - View status of bid groups,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,317,317 - PWS - Initiate the PWS auto-award process,12,,Yes, ,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,318,318 - PWS - Run award process for each bid group,12,,Yes, ,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,319,319 - PWS - View award discrepancies,12,Yes,,,,,,,,,,8.5,4.1,Yes
+Crew,Bulletin Logic,320,320 - PWS - Deactivate bid cards due to availability,12,,Yes,,,,,,,,,8.5,4.1,Yes
+Crew,Misc. Functionality,321,321 - Manage employee flowback requests,Non UP,Yes,Yes,Medium,,,,,,,,1.8,3.7,No
+Crew,Call,322,322 - Replace Employee on Pool Train,6,Yes,,,,,,,,,,F,6.3,Yes
+Crew,Tie up,323,323 -Perform Release Reporting from Call Cancel,14,Yes,,Medium,,,,,,,,3.3,8.3,Yes
+Crew,Tie up,324,324 - Present The Locomotive Inspection Reporting To Engineers For Tie Up,Deprecated,Yes,,Medium,,,,,,,,8.3,8.4,No
+Crew,Tie up,325,325 - Present The On Duty Train For Tie Up,5,,Yes,High,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,326,326 - Add The Train Movement Reporting For Yard Assignment Tie Up,5,Yes,,Medium,,,,,,,,4.1,7.4,No
+Crew,Tie up,327,327 - Add The Train Movement Reporting For Road Assignment Tie Up,5,Yes,,Medium,,,,,,,,4.1,7.4,No
+Crew,Tie up,328,328 - Add Additional Activities Reporting For Tie Up ,5,Yes,,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,329,329 - Present Each Position For Quick Tie Up,2,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,330,330 - Present Deadhead Reporting For Tie Up,5,,Yes,Medium,,,,,,,,4.1,7.4,No
+Crew,Tie up,331,331 - Present Individual Service Deadhead Reporting For Tie UP,13,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,332,332 - Present The Hours Of Service Summary For Tie Up,5,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,333,333 - Calculate The Employee's Undisturbed Rest,2,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,334,334 - Calculate The Employee's Hours Of Service ,2,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,335,335 - Present Lodging Facilities (at non-home locations),3,,,,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,336,336 - Present Applicable System Messages Based On Tie Up Reporting,5,,Yes,High,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,337,337 - Complete The Tie Up With Interdivisional Pool Turns,6,,Yes,High,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,338,338 - Certify The Tie Up ,5,Yes,,Medium,,,,,,,,4.1,7.4,No
+Crew,Tie up,339,339 - Create Automated Deadhead Home ,13,,Yes,Medium,,,,,,,,4.1,4.4,Yes
+Crew,Tie up,340,340 - Log The Covered And Non-Covered Service HOS Data In HOS Logs,2,,Yes,Medium,,,,,,,,8.1,7.4,Yes
+Crew,Tie up,341,341 - Present Delayed Reporting For Each Employee,5,,Yes,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Tie up,342,342 - Present Screen Share For Remote Support,Non UP,Yes,Yes,Medium,,,,,,,,8.5,1.1,No
+Crew,Call,343,"343 - Lock/Unlock employees, trains, and PWS bid groups",1,,Yes,Medium,,,,,,,,3.4,6.3,Yes
+Crew,Call,344,344 - View / Manage Record Locks,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Call,345,345 - Manage record locks,Consolidated,Yes,,Medium,,,,,,,,3.4,,Yes
+Crew,Call,346,346 - Reset expired Hold for Call flags,7,,Yes,Medium,,,,,,,,2.3,7.4,Yes
+Crew,Call,347,347 - Carry turns at call time,8,,Yes,,,,,,,,,1.5,6.3,Yes
+Crew,Assignments,348,348 - Create/Manage Default Position control,1,Yes,,Medium,,,,,,,,2.1,2.6,Yes
+Crew,Assignments,349,349 - Manage Default Position control,Consolidated,Yes,,Medium,,,,,,,,2.1,2.1,No
+Crew,Status Tracking,350,350 - Layoff Employee Into Designated Long Term Off Status,Non UP,,Yes,Medium,,,,,,,,2.3,2.3,No
+Crew,Status Tracking,351,351 - Create Markup Restriction control,Consolidated,Yes,, ,,,,,,,,na,,No
+Crew,Status Tracking,352,352 - Manage Markup restriction control,NS Deprecated,Yes,, ,,,,,,,,na,,No
+Crew,Status Tracking,353,353 - Send Employee Assignment Information to External System,3,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Status Tracking,354,354 - Send and Receive FMLA Transmission File,7,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Status Tracking,355,355 - View Employees Attendance Summary & Details,NS Deprecated,Yes,,,,,,,,,,na,,No
+Crew,Status Tracking,356,356 - Inquire Employees on various Attributes,1,Yes,,Medium,,,,,,,,2.2,3.4,Yes
+Crew,Status Tracking,357,357 - Layoff an employee into status governed by HOS,7,Yes,,Medium,,,,,,,,4.1,7.4,Yes
+Crew,Status Tracking,358,358 - Create future markup tasks based on layoff duration/expiration etc. Combine with 357,7,,Yes,Medium,,,,,,,,2.3,2.3,No
+Crew,Status Tracking,359,359 - Write Employee Attendance Details ,18,,Yes,Medium,,,,,,,,8.3,2.3,Yes
+Crew,Status Tracking,360,"360 - Manage(create, approve, deny, cancel, view) layoff requests",Metra,,,,,,,,,,,8.4,2.3,No
+Crew,Status Tracking,361,361 - Create Missed Call Document,8,Yes,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Status Tracking,362,362 - View Missed Call Documents,8,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Status Tracking,363,363 - Create/Manage On Call Penalty Profile,1,Yes,,Medium,,,,,,,,1.1,5.4,Yes
+Crew,Status Tracking,364,364 - Manage On Call Penalty Profile,Consolidated,Yes,,Medium,,,,,,,,1.1,5.4,Yes
+Crew,Call,365,365 - View Rejected Employees,8,Yes,,Medium,,,,,,,,8.5,6.3,Yes
+Crew,HOS Inquiries,366,"366 - View, Export Hours of Duty Records (FRA/CMC/Transportation Mgt) (OBI Dashboard)",18,Yes,,Medium,,,,,,,,8.1,8.4,Yes
+Crew,Assignments,367,367 - Process Voluntary Seniority Moves to Extraboards,18,Yes,Yes,Medium,,,,,,,,2.4,3.7,Yes
+Crew,Trains,368,368 - Create Additional Qualifications ,NS Deprecated,,,,,,,,,,,na,,No
+Crew,Trains,369,369 - Manage Additional Qualifications ,NS Deprecated,,,,,,,,,,,na,,No
+Crew,Trains,370,370 - Create Desk Assignments,Consolidated,Yes,,Medium,,,,,,,,1.4,1.4,No
+Crew,Trains,371,371 - Manage Desk Assignments,Consolidated,Yes,,High,,,,,,,,1.4,,No
+Crew,Trains,372,372 - Create a Train Request,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,373,373 - Delete Planned Trains,6,Yes,Yes,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,374,374 - Change Train ID,8,Yes,,Medium,,,,,,,,3.3,2.4,Yes
+Crew,Trains,375,375 - Create Assigment History,NS Deprecated,,,,,,,,,,,na,,No
+Crew,Trains,376,376 - View Assignment History,NS Deprecated,,,,,,,,,,,na,,No
+Crew,Trains,377,377 - Send Train Information to External System,3,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Trains,378,378 - Create Train History,Consolidated,,Yes,Medium,,,,,,,,3.2,2.4,No
+Crew,Trains,379,379 - Create Batch Train Delay Data Extract,NS Deprecated,,Yes,,,,,,,,,na,,No
+Crew,Trains,380,380 - Create Extra Assignment,10,Yes,,Medium,,,,,,,,2.1,3.6,Yes
+Crew,Trains,381,381 - Create Road Deadhead,14,Yes,,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Trains,382,382 - Create Train Details,Consolidated,,Yes,Medium,,,,,,,,3.2,2.4,No
+Crew,Trains,383,383 - Repair Error Trains,6,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,384,384 - Receive Train Information From External System,3,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Trains,385,385 - Create/View Train History,1,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Trains,386,386 - Create/View Train Details,6,Yes,,,,,,,,,,3.2,2.4,Yes
+Crew,Trains,387,387 - Request Train Information From External System,3,,Yes,Medium,,,,,,,,8.3,1.1,Yes
+Crew,Autocall ,388,388 - Create/Manage Autocall Planned Outage ,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,389,389 - Manage Autocall Planned Outage ,Consolidated,Yes, ,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,390,390 - Manage Autocall Unplanned Outage,15,Yes, ,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,391,391 - Create / Manage Autocall Sort Profile Control,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,392,392 - Manage Autocall Sort Profile Control,Consolidated,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,393,393 - Create / Manage Call Zones,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,394,394 - Manage Call Zones,Consolidated,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,395,395 - Manage Call Zone Status,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,396,396 - View Autocall Status List,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,397,397 - View Multiple Vacancies,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,398,398 - View Autocall Phone Log,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,399,399 - View Autocall Detail,15,Yes,,Medium,,,,,,,,na,7.3,No
+Crew,Autocall,400,400 - Create Autocall Control,NS Deprecated,Yes,,Medium,,,,,,,,na,7.3,No
+Crew,Autocall,401,401 - Manage Autocall Control,15,Yes,,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,402,402 - Initiate Autocall,15,,Yes ,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall ,403,403 - Selecting Positions in Autocall,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,404,404 - Sorting Multiple Autocall Assignments,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,405,405 - Call Employees to work via the VRU,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,406,406 - Text or Push Notification to Employees to work via the Autocall,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,407,407 - Determine if Train can be Setback for Non-Rested Employees,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,408,408 - Create Missed Call Document via Autocall,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall ,409,409 - Employee Validation in Autocall,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,410,410 - Contact Employee for Assignment with no Deadhead via Autocall ,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,411,411 - Contact Employee for Deadhead via Autocall,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,412,412 - Contact Employee for Separate Service Deadhead via Autocall,15, ,Yes,Medium,,,,,,,,na,7.3,No
+Crew,Autocall,413,413 - Contact Employee for an Individual Deadhead via Autocall,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,414,414 - Inbound Call by Employee in Decision Fill Process,15, ,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,415,415 - Complete the call in Autocall,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,416,416 - Layoff On Call via Autocall,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,417,417 - Contact Employee for Recrew Assignment,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,418,418 - Create Road Deadhead for an On Duty Assignment,6,,Yes,Medium,,,,,,,,3.2,6.3,Yes
+Crew,Assignments,419,419 - Create Job Classification Control,NS Deprecated,,Yes,Medium,,,,,,,,2.1,2.1,No
+Crew,Assignments,420,420 - Manage Job Classification Control,NS Deprecated,,Yes,Medium,,,,,,,,2.1,2.1,No
+Crew,Autocall,421,421 - Contact Employee for Multiple Vacancies,15,,Yes,Medium,,,,,,,,3.4,7.3,Yes
+Crew,Bulletin Logic,422,422 - Advertisement selection,NS Deprecated,Yes,,,,,,,,,,na,,No
+Crew,Bulletin Logic,423,423 - Advertisement maintenance,NS Deprecated,Yes,,,,,,,,,,na,,No
+Crew,Tie Up,424,424 - Present Incomplete Locomotive Inspection Reports,Deprecated,,,,,,,,,,,8.3,8.4,No
+Crew,Tie Up,425,425 - Present Locomotive Inspection Report for Processing,Deprecated,,,,,,,,,,,8.3,8.4,No
+Crew,Tie Up,426,426 - Report Defects on a Locomotive,Deprecated,,,,,,,,,,,8.3,8.4,No
+Crew,Tie Up,427,427 - Send Locomotive Information to LCDI at Logon/Tie Up,Deprecated,,,,,,,,,,,8.3,8.4,No
+Crew,Tie up,428,428 - Accumulate Yard Starts,5,,Yes,Medium,,,,,,,,2.4,7.4,Yes
+Crew,Call,429,429 - Analyze Yard Starts,5,,Yes,Medium,,,,,,,,2.4,7.4,Yes
+Crew,Assignments,430,430 - Create/Manage/View Scheduled Rest Days Profile,6,,,,,,,,,,,1.1,2.3,Yes
+Crew,Assignments,431,431 - Manage Work/Rest Profile Manage Scheduled Rest Days Profile,Consolidated,,,,,,,,,,,1.1,1.1,No
+Crew,Assignments,432,432 - View Work/Rest Calendar View Scheduled Rest Days Calendar,Consolidated,,,,,,,,,,,1.1,2.6,No
+Crew,Assignments,433,433 - Layoff on rest via Work/Rest Cycles,6,,,,,,,,,,,2.3,2.3,Yes
+Crew,Assignments,434,434 - Create Assigned Job Snapshot Control,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,435,435 - Manage Assigned Job Snapshot Control,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,436,436 - View Snapshot,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,437,437 - Create Extra Board Snapshot,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,438,438 - Create Pool Snapshots,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,439,439 - Create Assigned Jobs Board Snapshot,18,,,,,,,,,,,2.4,3.6,Yes
+Crew,Assignments,440,440 - Manage Transfer Employee Information,15,,,,,,,,,,,3.4,9.4,Yes
+Crew,Bulletin Logic,441,441 - Create & Manage Advertisment Bid Control,11,Yes,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,442,442 - Manage Advertisment Bid Control,Consolidated,Yes,,,,,,,,,,1.8,1.8,No
+Crew,Notifications,443,443 - Create IVR Notifications,15,,,,,,,,,,,3.4,6.1,Yes
+Crew,Notifications,444,444 - Contact Employee for Notifications,15,,,,,,,,,,,3.4,6.1,Yes
+Crew,Notifications,445,445 - Process IVR Notification Results,15,,,,,,,,,,,3.4,6.1,Yes
+Crew,In Dial,446,446 - Manage IVR In Dial,15,,,,,,,,,,,3.4,9.4,Yes
+Crew,In Dial,447,447 - Inform Employee of Call to Work/Notification via In Dial,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,In Dial,448,448 - Check Employee HOS and Must Relieved via in Dial,15,,,,,,,,,,,3.4,6.1,Yes
+Crew,In Dial,449,449 - Manage In Dial Selections,15,,,,,,,,,,,3.4,9.4,Yes
+Crew,IVR,450,450 - Create IVR Board Codes,15,,,,,,,,,,,1.2,9.4,Yes
+Crew,IVR,451,451 - Manage IVR Board Codes,15,,,,,,,,,,,1.2,9.4,Yes
+Crew,Assignments,452,452 - View Scheduled Pool Next Cycle,6,,,,,,,,,,,3.1,3.6,Yes
+Crew,Bulletin Logic,453,453 - Create & Inquire Trainman Advertisement,11,Yes,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,454,454 - Manage Trainman Advertisement,11,Yes,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,455,455 - Inquire Trainman Advertisement,Consolidated,Yes,,,,,,,,,,1.8,4.1,No
+Crew,Bulletin Logic,456,456 - Manage Employee Standing Bids,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,457,457 - View Employee Standing Bid History,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,458,458 - View/Manage Assignment Standing Bids,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Bulletin Logic,459,459 - Process Standing Bids,11,,,,,,,,,,,1.8,4.1,No
+Crew,Tie Up,460,460 - Process Automatic Tie Up,Deprecated,,,,,,,,,,,4.1,734,No
+Crew,Reports,461,461 - Create PPI/DDO Qualified vs Disqualified Report,Non UP,Yes,,Medium,,,,,,,,8.5,9.1,No
+Crew,Reports,462,462 - Create Starts Report,18,Yes,,Medium,,,,,,,,8.3,9.1,Yes
+Crew,Reports,463,463 - Create Train History Report with Crew Information,18,Yes,,Medium,,,,,,Train_history_sample_report.xlsx,,3.2,9.1,Yes
+Crew,Reports,464,464 - Create Pool Mileage Inquiry Report,18,Yes,,Medium,,,,,,Pool_Mileage_sample_report.xlsx,,8.3,9.1,Yes
+Crew,Reports,465,465 - Create Extra Board Summary Report,18,Yes,,Medium,,,,,,,,8.3,9.1,Yes
+Crew,Reports,466,466 - Create On Duty/Assigned Job Vacancy Report ,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Reports,467,467 - Create Pool Regulation Starts Report,18,Yes,,Medium,,,,,,,,8.3,9.1,Yes
+Crew,Reports,468,468 - Generate Shift Report,18,Yes,,Medium,,,,,,Shift_Repot_sample_report.xlsx,,8.5,9.1,Yes
+Crew,Reports,469,469 - Create Desk Assignment Reports,18,Yes,,Medium,,,,,,Desk Assignment.xlsx,,8.5,9.1,Yes
+Crew,Reports,470,470 - Create Advertisement Notification,11,Yes,,Medium,,,,,,,,1.8,4.1,Yes
+Crew,Reports,471,471 - Create Message Routing Report,1,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Misc. Functionality,472,472 - Create Advertisement Control Profile,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Misc. Functionality,473,473 - Auto-generate perm/temp advertisements,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Reports,474,474 - Create Turnover messages,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Employee,475,475 - Create/Manage Notification Profile,7,,,,,,,,,,,1.1,6.1,Yes
+Crew,Employee,476,476 - Manage Notification Profile,Consolidated,,,,,,,,,,,1.1,1.1,No
+Crew,Reports,477,477 - Create Call Sheet Report,18,Yes,,Medium,,,,,,,,3.2,2.4,Yes
+Crew,Misc. Functionality,478,478 - Create / Manage Broadcast Message Template,11,,,,,,,,,,,1.8,5.1,Yes
+Crew,Misc. Functionality,479,479 - Manage Broadcast Message Template,Consolidated,,,,,,,,,,,1.8,1.8,Yes
+Crew,Reports,480,480 - Create Yard Call Report,18,Yes,,Medium,,,,,,Yard Call Report.xlsx,,8.5,9.1,Yes
+Crew,Misc. Functionality,481,481 - Process Auto-notifications,7,,,,,,,,,,,3.4,6.1,Yes
+Crew,Reports,482,482 - Create Desk Historical Inquiry Report,18,Yes,,Medium,,,,,,Desk Historical Inquiry Report.xlsx,,8.5,9.1,Yes
+Crew,Reports,483,483 - View Shift Reports Log,18,Yes,,Medium,,,,,,,,8.5,9.1,Yes
+Crew,Autocall,484,484 - Create Yard Call Cycle Windows,1,Yes,,Medium,,,,,,,,1.1,1.1,Yes
+Crew,Reports,485,485 - View Trainmaster Calendar,Deprecated,,,,,,,,,,,8.5,8.5,No
+Crew,Reports,486,486 - View PPI Dashboard,Non UP,,,,,,,,,,,na,9.1,No
+Crew,Reports,487,487 - View Taxi Message Chips,Consolidated,,,,,,,,,,,8.5,1.1,Yes
+Crew,Reports,488,488 - View Vacancy Inquiry Reports,18,,,,,,,,,,,8.5,9.1,Yes
+Crew,Reports,489,489 - Create Shift Report - Status Counts Control,18,,,,,,,,,,,8.5,9.1,Yes
+Crew,Reports,490,490 - Manage Shift Report - Status Counts Control,18,,,,,,,,,,,8.5,9.1,Yes
+Crew,Reports,491,"491 - Create Skipped ""Do Not Disturb"" Employee Report",18,,,,,,,,,,,8.5,9.1,Yes
+Crew,Autocall,492,492 - Drop Turn in Autocall,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,493,493 - Position Step Ups Autocall - Assigned Service,15,,,,,,,,,,,3.4,5.5,Yes
+Crew,Autocall,494,494 - Will Show - Assigned Service,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,495,495 - Backend Process Deadhead to Assignment,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,496,496 - Backend Process Deadhead to Home,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,497,497 - Automated Fill Profile,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,498,498 - Lodging Options,Day2,,,,,,,,,,,3.4,Day2,Yes
+Crew,Autocall,499,499 - LW Restrictions,Day2,,,,,,,,,,,3.4,Day2,Yes
+Crew,Call,500,500 - Taxi Prompts and Ordering Process,3,,,,,,,,,,,3.4,6.3,Yes
+Crew,Call,501,501 - Job Choice,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,502,502 - Multi Thread to Single Thread Process,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,503,503 - Re-Evaluation for Must Accept Employees,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,504,504 - Automated Refuse Call,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,505,505 - Call Process - Outbound,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,506,506 - Main Menu Options,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,507,507 - Calling Ratio Boards In Autocall,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,508,508 - Employees Stuck In Processing,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,509,509 - Split Call Times,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Autocall,510,510 - Autocall Training Positions,15,,,,,,,,,,,3.4,7.3,Yes
+crew,pool regulation,511,511 - Create pool regulation starts data optimization extract,18,,,,,,,,,,,8.3,9.1,Yes
+crew,yard schedule worksheet,512,512 - view yard schedule worksheet,18,,,,,,,,,,,8.5,9.1,Yes
+crew,screen filter log,513,513 - view screen filter log,Deprecated,,,,,,,,,,,na,,No
+crew,smart menus,514,"514 - provide smart menus for employee, train, board, and crew ids",1,,,,,,,,,,,1.1,1.1,Yes
+Crew,seniority roster,515,515 - Seniority Roster Inquiry,1,,,,,,,,,,,1.1,2.6,Yes
+Crew,optimization chip,516,516 - view optimization chip,Day2,,,,,,,,,,,8.3,1.1,Yes
+Crew,don’t layoff on rest day,517,517 - manage don’t layoff on rest day option,Non UP,,,,,,,,,,,2.3,2.3,No
+Crew,Inquire on all ns employees,518,518 - Inquire on All Employees,1,,,,,,,,,,,2.3,3.4,Yes
+Crew,HOS Inquiries,519,519 - HOS Violation Tracking,18,,,,,,,,,,,1.7,8.4,Yes
+Crew,Seniority Moves,520,520 - Self Service Control,Day2,,,,,,,,,,,8.5,1.1,Yes
+Crew,Seniority Moves,521,512 - Daily Mark Board Control,12,,,,,,,,,,,1.8,4.1,Yes
+Crew,HOS Inquiries,522,522 - TE&Y Access to Edit to HOS Records,5,,,,,,,,,,,4.5,8.4,Yes
+Crew,Call,523,523 - Pilot Process,8,,,,,,,,,,,3.2,6.3,Yes
+Crew,Tie up,524,524 - Deadhead Convert,14,,,,,,,,,,,4.1,7.4,Yes
+Crew,Status Tracking,525,525 - Company Officer Transition,1,,,,,,,,,,,8.5,1.1,Yes
+Crew,Call,526,526 - Classroom Training,9,,,,,,,,,,,8.3,9.2,Yes
+Crew,Status Tracking,527,527 - PL Denial and Carry Over,7,,,,,,,,,,,2.3,2.3,Yes
+Crew,Call,529,529 - Updated Worklist Sorting and Screens,15,,,,,,,,,,,3.2,7.1,Yes
+Crew,HOS Inquiries,530,530 - HOS Non Work Entry Process,7,,,,,,,,,,,8.1,7.4,Yes
+Crew,Status Tracking,531,531 - Self Service Controls,duplicate,,,,,,,,,,,Duplicate of 520,,No
+Crew,HOS Inquiries,532,532 - Metra HOS,Metra,,,,,,,,,,,8.4,7.4,No
+Crew,Trains,533,533 - Metra Schedules,Metra,,,,,,,,,,,8.4,5.6,No
+Crew,Trains,534,534 - Metra Holiday Process,Metra,,,,,,,,,,,8.4,1.1,No
+Crew,Assignments,535,535 - Create/Manage Basic Sequence + Rotation,6,,,,,,,,,,,3.1,3.6,Yes
+Crew,Assignments,536,536 - Create/Manage Basic Sequence ,Consolidated,,,,,,,,,,,3.1,2.6,No
+Crew,Assignments,537,537 - Create/Manage Ratio Boards,6,,,,,,,,,,,3.1,3.6,Yes
+Crew,Assignments,538,538 - Manage Ratio,6,,,,,,,,,,,3.1,3.6,No
+Crew,Assignments,539,539 - Calling Ratio Boards,6,,,,,,,,,,,3.2,5.4,Yes
+Crew,Tie up,540,540 - Tieup Ratio Boards,6,,,,,,,,,,,4.1,7.4,Yes
+Crew,Status Tracking,541,541 - Float Week Process,17,,,,,,,,,,,2.3,2.3,Yes
+Crew,Vacation,542,542 - Single Day Execution of Vacation,17,,,,,,,,,,,2.3,5.2,Yes
+Crew,Misc. Functionality,543,543 - Class Scheduler Integration,9,,,,,,,,,,,8.3,,Yes
+Crew,Tie up,544,544 - Turn Rest,6,,,,,,,,,,,3.1,7.4,Yes
+Crew,HOS Inquiries,545,545 - Work Rest -HOS (maybe combine with work/rest profile),2,,,,,,,,,,,1.1,7.4,Yes
+Crew,Seniority Moves,546,546 - Force Bump Process,11,,,,,,,,,,,1.8,3.7,Yes
+Crew,Tie up,547,547 - Tieup Adjustments,Consolidated,,,,,,,,,,,4.5,7.4,Yes
+Crew,Notifications,548,548 - Notification Restriction Profile,15,,,,,,,,,,,1.1,6.1,Yes
+Crew,Call,549,549 - Single Person Crews,Deprecated,,,,,,,,,,,2.4,2.4,No
+Crew,Autocall,550,550 - Single Persin Crews In Autocall,Deprecated,,,,,,,,,,,3.4,7.3,No
+Crew,Change of Status,551,551 - Additional Day Layoffs and Medical Days,7,,,,,,,,,,,2.3,2.3,Yes
+Crew,Change of Status,552,552 - Advanced Scheduling,Deprecated,,,,,,,,,,,1.3,2.3,No
+Crew,Bulletins,553,553 - Barrow Out Process,11,,,,,,,,,,,1.8,4.1,Yes
+Crew,Change of Status,554,554 - End of Year Layoffs,17,,,,,,,,,,,1.3,2.3,Yes
+Crew,Change of Status,555,555 - Year over Year Compensated Layoffs,17,,,,,,,,,,,1.3,2.3,Yes
+Crew,Autocall,556,556 - AVR Responsibility Group,15,,,,,,,,,,,3.4,9.4,Yes
+Crew,Integration,557,557 - Call Pop,15,,,,,,,,,,,8.3,9.4,Yes
+Crew,Change of Status,558,558 - Free Day Profile,7,,,,,,,,,,,1.3,2.3,Yes
+Crew,Call,559,559 - Held Away Profile,Timekeeping,,,,,,,,,,,2.1,2.7,Yes
+Crew,Integration,560,560 - Hotel Info,18,,,,,,,,,,,8.3,1.1,Yes
+Crew,Bulletins,561,561 - Mileage Profile,11,,,,,,,,,,,2.4,2.7,Yes
+Crew,General,562,562 - Radio Assignment Number,Deprecated,,,,,,,,,,,1.4,1.4,No
+Crew,Assignments,563,563 - Window Pools,Deprecated,,,,,,,,,,,3.1,3.1,No
+Crew,Assignments,564,564 - Assigned Pools,Deprecated,,,,,,,,,,,3.1,3.1,No
+Crew,Assignments,565,565 - Zone Choice,Deprecated,,,,,,,,,,,1.1,1.1,No
+Crew,General,566,566 - Quartz Job,1,,,,,,,,,,,1.2,1.1,Yes
+Crew,Tie up,567,567 - Turn Control Profile,8,,,,,,,,,,,4.4,7.4,Yes
+Crew,Employee,568,568 - Emp Phone Report,Consolidated,,,,,,,,,,,8.5,8.5,Yes
+Crew,General,569,569 - Code Table,1,,,,,,,,,,,1.1,1.1,Yes
+Crew,Assignments,570,570 - Rest Profile,2,,,,,,,,,,,1.1,7.4,Yes
+Crew,Assignments,571,571 - Crew Management Sector,Deprecated,,,,,,,,,,,1.4,1.4,No
+Crew,General,572,572 - Union Chairmen,Consolidated,,,,,,,,,,,1.2,1.2,No
+Crew,Vacation,573,573 - Perponderance,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,574,574 - Vacation Allocation,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,575,575 - Vacation Inquiry,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,576,576 - Vacation Change Request / Approval,17,,,,,,,,,,,1.3,6.2,Yes
+Crew,Vacation,577,577 - Vacation Maintenance,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Assignments,578,578 - Bump Boards,4,,,,,,,,,,,2.4,3.7,Yes
+Crew,Assignments,579,579 - Trade Turns,8,,,,,,,,,,,2.4,3.7,Yes
+Crew,Change of Status,580,580 - Deselect Layoff,7,,,,,,,,,,,2.3,3.3,Yes
+Crew,Autocall,581,581 - AVR History,15,,,,,,,,,,,3.4,7.3,Yes
+Crew,Assignments,582,582 - Working into Scheduled Layoff,7,,,,,,,,,,,2.3,2.3,Yes
+Crew,Layoff,583,583 - Layoff Restriction Table,7,,,,,,,,,,,2.3,2.3,Yes
+Crew,General,584,584 - Service Unit,1,,,,,,,,,,,1.2,1.3,Yes
+Crew,General,585,585 - Region,1,,,,,,,,,,,1.2,1.3,Yes
+Crew,General,586,586 - Circ7/Station,1,,,,,,,,,,,1.2,1.3,Yes
+Crew,General,587,587 - Cancel an Indivdual Deadhead to an Assignment,13,,,,,,,,,,,3.3,8.3,Yes
+Crew,Autocall,588,588 - Cancel an Indivdual Deadhead to Home,13,,,,,,,,,,,3.3,8.3,Yes
+Crew,Employee,589,589 - Archive Employee Screen,7,,,,,,,,,,,1.3,3.3,Yes
+Crew,General,590,590 - Lodging Chips,Day2,,,,,,,,,,,8.5,Day2,Yes
+Crew,General,591,591 - Create/Manage Hub,1,,,,,,,,,,,1.2,1.3,Yes
+Crew,General,592,592 - Create/Manage Zone,1,,,,,,,,,,,1.2,1.3,Yes
+Crew,Vacation,593,593 - Vacation List,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,594,594 - Vacation Profile,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,595,595 - Vacation Bid History,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,Vacation,596,596 - Vacation Reports,17,,,,,,,,,,,1.3,5.2,Yes
+Crew,pool regulation,597,597 - Recall & Furlough Process,11,,,,,,,,,,,1.8,2.31.3,Yes
+Crew,Vacation,598,598 - Vacation Scheduling Process,Consolidated,,,,,,,,,,,1.3,2.1,Yes
+Crew,Layoff,599,599 - General Rest Day on yard jobs,Consolidated,,,,,,,,,,,2.1,,Yes
+Crew,Layoff,600,600 - Vacation to Paid Sick Conversion,Consolidated,,,,,,,,,,,1.3,,No
+Crew,Layoff,601,601 - Paid Sick Conversion Difference Between Crafts,Consolidated,,,,,,,,,,,1.8,,No
+Crew,Call,602,602 - RCO Conversion,10,,,,,,,,,,,3.2,,Yes
+Crew,Assignments,603,603 - Temp. assignment extended for 1-2 min. mark up.,7,,,,,,,,,,,2.1,2.3,Yes
+Crew,Calling Crew,604,604 - View Rejected Employees In Call Crew Screen,8,,,,,,,,,,,3.2,6.3,Yes
+Crew,Employee,605,605 - Deleting Employees,7,,,,,,,,,,,8.5,8.2,Yes
+Crew,Calling Crew,606,606 - Self Supporting Pools,6,,,,,,,,,,,3.1,3.2,Yes
+Crew,Call,607,607 - Auto Deadhead Unused Carded Pools,14,,,,,,,,,,,3.1,2.6,Yes
+Crew,Notifications Status List,608,608 - Notifications Status List,15,,,,,,,,,,,3.4,6.3,Yes
+Crew,Layoff,609,609 - Entitlement Decrements,Timekeeping,,,,,,,,,,,2.3,6.3,Yes
+Crew,Employee,610,610 - Move Employee,6,,,,,,,,,,,2.4,6.1,Yes
+Crew,Vacation,611,611 - Convert Vacation to Paid Sick,17,,,,,,,,,,,2.3,5.2,Yes
+Crew,Status Tracking,612,612 - Layoff Board Inquiry (combined with UC356),Consolidated,,,,,,,,,,,2.2,3.7,No
+Crew,Status Tracking,613,613 - Special Status Inquiry (combined with UC356),Consolidated,,,,,,,,,,,2.2,5.2,No
+Crew,Calling Crew,614,614 - Placing an Unrested Employee On Duty,8,,,,,,,,,,,3.2,6.3,Yes
+Crew,Calling Crew,615,615 - Replace Employee on Assigned Job,4,,,,,,,,,,,,6.3,Yes
+Crew,Employee,616,616 - Employee Bulk Load / Edit,NFR,,,,,,,,,,,,1.2,Yes
+Crew,Assignments,618,618 - Perm Seniority Profile,7,,,,,,,,,,,,3.7,Yes
+Crew,Assignments,619,619 - Temp Seniority Move Profile,7,,,,,,,,,,,,3.7,Yes
+Crew,Assignments,620,620 - Give Up Seniority Move profile,7,,,,,,,,,,,,3.7,Yes
+Crew,Assignments,621,621 - Riding Bulletin Seniority Move Profile,7,,,,,,,,,,,,3.7,Yes
+Crew,Assignments,622,622 -Daily Mark Menu,12,,,,,,,,,,,,,Yes
+Crew,Assignments,623,623 - Daily Mark Preference,12,,,,,,,,,,,,,Yes
+Crew,Assignments,624,624 - Daily Mark - Review,12,,,,,,,,,,,,,Yes
+Crew,Assignments,625,625 - Complete the Quick Tie Up,2,,,,,,,,,,,,,Yes
+Crew,NFR,626,Alton Southern,1,,,,,,,,,,,,,Yes
+Crew,NFR,627,Change Log - Application wide testing,1,,,,,,,,,,,,,Yes
+Crew,NFR,628,Yard Master to Yard Controler,1,,,,,,,,,,,,,Yes
+Crew,NFR,629,Code Table - Train Settings,1,,,,,,,,,,,,,Yes
+Crew,NFR,630,CrewPro UI Color Scheme - Prod Versus Test,1,,,,,,,,,,,,,Yes
+Crew,Integration,631,SAP Integration - Employee Load,1,,,,,,,,,,,,,Yes
+Crew,NFR,632,Security base Requirements,1,,,,,,,,,,,,,Yes
+Crew,Integration,633,Station Master Integration,1,,,,,,,,,,,,,Yes
+Crew,Integration,634,User Uathoriztion Interface,Consolidated,,,,,,,,,,,,,Yes
+Crew,Integration,635,EQMS Integration,3,,,,,,,,,,,,,Yes
+Crew,Integration,636,EVMS Integration,3,,,,,,,,,,,,,Yes
+Crew,Integration,637,CLC Integration,3,,,,,,,,,,,,,Yes
+Crew,NFR,638,Terminology Change - Relief or Request Relief to Recrew,4,,,,,,,,,,,,,Yes
+Crew,Integration,639,Tieup Integration UI,5,,,,,,,,,,,,,Yes
+Crew,Integration,640,Tieup Integration engine Inspection,Deprecated,,,,,,,,,,,,,No
+Crew,Integration,641,Timekeeping Tasks Trip and Time Slip Related,5,,,,,,,,,,,,,Yes
+Crew,Integration,642,NCT (Net Control) Integration,6,,,,,,,,,,,,,Yes
+Crew,Integration,643,Trade Turns,Duplicate,,,,,,,,,,,,,No
+Crew,Integration,644,EAMS Integration,7,,,,,,,,,,,,,Yes
+Crew,,645,,,,,,,,,,,,,,,Yes
+Crew,Integration,646,ISM Integration,7,,,,,,,,,,,,,Yes
+Crew,Integration,647,647 - PreArranged Layoff Auto Activation Integration (PALAA),7,,,,,,,,,,,,,Yes
+Crew,Integration,648,SAP Integration - Employee Load,7,,,,,,,,,,,,,Yes
+Crew,Integration,649,SSSSM Integration,7,,,,,,,,,,,,,Yes
+Crew,Integration,650,CEYLT - Create Extra Yard/Local ,10,,,,,,,,,,,,,Yes
+Crew,Integration,651,RCO Crew Order,10,,,,,,,,,,,,,Yes
+Crew,Integration,652,SRCL Switch RCL Train to conventional,10,,,,,,,,,,,,,Yes
+Crew,Integration,653,AVR Integration (Inbound),15,,,,,,,,,,,,,Yes
+Crew,Integration,654,AVR Quick Tie Integration,15,,,,,,,,,,,,,Yes
+Crew,Integration,655,TE&Y Notifications Integration,15,,,,,,,,,,,,,Yes
+Crew,Integration,656,Crew Mobile Integration,15,,,,,,,,,,,,,Yes
+Crew,Integration,657,EDI Messages,15,,,,,,,,,,,,,Yes
+Crew,Integration,658,Vacation Process: Screen Interconnections,17,,,,,,,,,,,,,Yes
+Crew,Integration,659,ETL Integration,18,,,,,,,,,,,,,Yes
+Crew,Integration,660,OBI/Tableau Integration,18,,,,,,,,,,,,,Yes
+Crew,Integration,661,Crew Planner Integration ,19,,,,,,,,,,,,,Yes
+Crew,Integration,662,Optimization,19,,,,,,,,,,,,,Yes
+Crew,Integration,663,TE&Y Emergency Contact,19,,,,,,,,,,,,,Yes
+Crew,Integration,664,Attendance Monitoring System - Vetting of Miss Calls,20,,,,,,,,,,,,,Yes
+Crew,Integration,665,Call Routing Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,666,CAMS (Attendance Monitor) Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,667,EOT Integration,Deprecated,,,,,,,,,,,,,No
+Crew,Integration,668,HDC Crew Factor Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,669,Jobs in Jeopardy / Cheat sheet Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,670,670 - MQ Daily Mark Request Report: JO0021/JI0021 MQs,Duplicate,,,,,,,,,,,,,No
+Crew,Integration,671,MyUP Portal Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,672,672 - Side By Side Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,673,Tactical Reporting/UP Vision Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,674,674 - Workflow Integration,20,,,,,,,,,,,,,Yes
+Crew,Integration,675,. =TL Integraion,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,676,. =ON Integraion,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,677,Cad Integration,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,678,COC - Cancel Order Crew Message,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,679,CQF integration,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,680,eHS Integration,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,681,NMS Data Repository,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,682,NMS Processes (Multiple) Integrations,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,683,TCS Call Train ,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Integration,684,TCS Train Update,NMS Integrations,,,,,,,,,,,,,Yes
+Crew,Layoff,685,685 - Layoff Extension,7,,,,,,,,,,,,,Yes
+Crew,Assignments,686,686 - Blue Print Board Process and Management,6,,,,,,,,,,,,,Yes
+Crew,,687,687 - Time Change Fall Forward / Spring Back,NFR,,,,,,,,,,,,,Yes
+Crew,Tie up,688,688 - Employee Starts,5,,,,,,,,,,,,,Yes
+Crew,Autocall,689,689 - Autocall Board Teminal Message,15,,,,,,,,,,,,,Yes
+Crew,,690,690 - Roll Call ,12,,,,,,,,,,,,,Yes
+Crew,,691,691 - Quartz Alert,19,,,,,,,,,,,,,Yes
+Crew,,692,692 - FR/FZ Status Rules,7,,,,,,,,,,,,,Yes
+Crew,,693,693 - Secondary Statuses,15,,,,,,,,,,,,,Yes
+Crew,,694,,,,,,,,,,,,,,,Yes
+Crew,,695,,,,,,,,,,,,,,,Yes
+Crew,,696,,,,,,,,,,,,,,,Yes
+Crew,,697,,,,,,,,,,,,,,,Yes
+Crew,,698,,,,,,,,,,,,,,,Yes
+Crew,,699,,,,,,,,,,,,,,,Yes
+,,800,zzzz,,,,,,,,,,,,,,

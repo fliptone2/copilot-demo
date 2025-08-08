@@ -1,4 +1,4 @@
-Review the selected file and use it to establish all of the epics for the software project. The epics should be structured, clear, and follow the provided template. Each epic should encapsulate a significant feature or deliverable that can be broken down into smaller user stories. Use the guidelines and template below to structure your response.
+Review the selected file and use it to establish all of the epics for the software project. If the file is too large to be properly parsed, stop and let the user know. The epics should be structured, clear, and follow the provided template. Each epic should encapsulate a significant feature or deliverable that can be broken down into smaller user stories. Use the guidelines and template below to structure your response.
 
 # Guidelines
 1. Give each epic a short title (e.g., "User Authentication") less than five words. 
