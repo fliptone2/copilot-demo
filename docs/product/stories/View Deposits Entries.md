@@ -20,8 +20,44 @@
 - Integration with deposit database or API
 - User authentication and authorization
 
-### Open Questions
 
-- What columns and filters are required in the table?
-- Should export or reporting features be included?
-- What is the data refresh interval for the table?
+### Table Columns
+
+- Selection Checkbox - checkbox (for bulk actions)
+- Deposit ID - text
+- User/Account - text
+- Amount - currency
+- Status - pill (e.g., Pending, Approved, Rejected)
+- Submitted Timestamp - datetime
+- Processed Timestamp - datetime
+- Pencil (Edit Deposit) - icon
+- Trash (Delete Deposit) - icon
+- Action Dots (More Actions) - icon
+
+#### Table Filters
+
+- Status
+- User/Account
+- Date Range (Submitted Timestamp)
+- Amount Range
+
+#### Table Pagination
+
+- 20 records per page
+
+#### Table Sorting
+
+- Deposit ID
+- User/Account
+- Amount
+- Status
+- Submitted Timestamp
+- Processed Timestamp
+
+#### Table Actions
+
+- Search (Deposit ID, User/Account)
+- Add new deposit record
+- Export data (CSV, Excel)
+- Bulk Edit
+- Bulk Delete

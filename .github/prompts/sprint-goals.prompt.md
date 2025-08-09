@@ -1,41 +1,33 @@
-Create sprint goals that:
+Query Jira and retrieve the user stories for the selected sprint. If I did not specify a sprint, stop and ask for clarification. Only review stories that have are tagged with the "Business" label. Review the stories you find and use them to define the goals for the sprint. The goals  should be structured, clear, and follow the provided template. Use the guidelines and template below to create the markdown for the sprint goals.
 
-- Are clear, concise, and actionable
-- Align with the overall product vision and current priorities
-- Focus on outcomes and value delivered to users or stakeholders
-- Are achievable within the sprint timeframe
-- Are measurable and testable (can be validated at sprint review)
-- Reflect collaboration across disciplines (engineering, design, QA, etc.)
-- Address any critical risks, dependencies, or blockers
+# Guidelines
+1. The objectives should be conceptual and not simply a list of tasks. Do not reference specific user stories.
+2. The objectives should be organized into logical groups that the team can work on collectively.
+3. The objectives should be framed in a way that emphasizes the value delivered to users.
+4. The objectives should be achievable within the sprint timeframe.
+5. The objectives should be measurable and testable (can be validated in the sprint demo).
+6. The objectives should reflect collaboration across disciplines (engineering, design, QA, etc.)
+8. The objectives should be based on the plan outlined in the project roadmap.
+9. Create the overview in a separate Markdown file in the sprints folder.
 
-## Format
+## Template
+```markdown
+# Sprint # Goal
 
-- **Sprint Goal:** One sentence describing the main outcome or value to be delivered
-- **Supporting Objectives:** 2–5 bullet points detailing key deliverables, features, or improvements
-- **Success Criteria:** How the team will know the goal is met (measurable outcomes, demo scenarios, acceptance criteria)
-- **Dependencies/Risks:** List any major dependencies, risks, or blockers that could impact the goal
-- **Notes:** Any additional context, priorities, or clarifications
+[One sentence describing the main outcome or value to be delivered]
 
-## Example Output
+## Demo Scenarios
 
-### Sprint Goal
-Deliver the initial user authentication flow to enable secure sign-in for all users.
+[List of scenarios that will be demonstrated to validate the sprint goal]
 
-### Supporting Objectives
-- Implement login UI and backend API
-- Integrate with approved domain list
-- Add error handling and user feedback for failed logins
-- Write automated tests for authentication scenarios
+## Supporting Objectives
 
-### Success Criteria
-- Users can sign in with valid credentials and are redirected to the homepage
-- Invalid login attempts show clear error messages
-- All authentication tests pass in CI
-- Demo includes sign-in flow for at least two user roles
+[List of bullet points detailing key deliverables, features, or improvements]
 
-### Dependencies/Risks
-- Awaiting final design for login page
-- Integration with domain list API may require additional time
+## Success Criteria
 
-### Notes
-- Prioritize accessibility and mobile responsiveness
+[List of criteria that will be used to measure the success of the sprint goal]
+
+## Dependencies/Risks
+
+[List of dependencies or risks that could impact the sprint goal]
